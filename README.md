@@ -12,7 +12,7 @@ mkdir data/negg_data
 # negg_data_dir represents the address of the downloaded dataset
 mv negg_data_dir/corpus_index_dev.txt ./data/negg_data/dev
 mv negg_data_dir/corpus_index_test.txt ./data/negg_data/test
-mv negg_data_dir/corpus_index_train0.txt ./negg_data/data/train
+mv negg_data_dir/corpus_index_train0.txt ./data/negg_data/train
 ```
 We also uploaded this dataset along with the code.
 The original dataset: due to dataset upload size limitations, we will publish this dataset after the paper is published.
