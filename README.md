@@ -2,7 +2,7 @@ Experiment code for: "A Generative Approach for Script Event Prediction via Cont
 
 Including main experiments and ablation experiments and the datasets we used. All experiments can be run directly through the corresponding configuration file when appropriate paths are set in the configuration file.
 
-1.  Datasets
+## 1.  Datasets
 The public dataset: can be found here:  [GitHub - eecrazy/ConstructingNEEG_IJCAI_2018: The data and code for our IJCAI-ECAI 2018 paper: Constructing Narrative Event Evolutionary Graph for Script Event Prediction](https://github.com/eecrazy/ConstructingNEEG_IJCAI_2018)
 
 ```plain
@@ -17,10 +17,10 @@ mv negg_data_dir/corpus_index_train0.txt ./data/negg_data/train
 We also uploaded this dataset along with the code.
 The original dataset: due to dataset upload size limitations, we will publish this dataset after the paper is published.
 
-2.  Experiments
-## 2.1 main experiments:
+## 2.  Experiments
+### 2.1 main experiments:
 
-### Bart_base_with_public_dataset($$Bart_{base}$$):  
+Bart_base_with_public_dataset($Bart_{base}$):  
 
 ```plain
 # 1. stage1: event-centric pretraining
@@ -32,9 +32,9 @@ python mian.py --config_file ./configs/main_experiments/bart_base_contrastive_fi
 # check performance in ./log/date/bart_base_event-centric_pretraining.log
 ```
 
-A similar process for repetition $$Bart_{large}$$and $$Bart_{large}+NYT$$model.
+A similar process for repetition $Bart_{large}$and $Bart_{large}+NYT$model.
 
-## 2.1 ablation experiments:
+### 2.2 ablation experiments:
 
 An example for ablation method *replace_with_a_linear_classifier.*
 
