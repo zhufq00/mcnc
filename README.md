@@ -28,7 +28,7 @@ python main.py --config_file ./configs/main_experiments/bart_base_event-centric_
 # 2. stage2: task-specific contrastive fine-tuning
 # check ./log/date/bart_base_event-centric_pretraining.log and copy the last
 # "best_checkpoint_path" to the "checkpoint_path" item of ./configs/main_experiments/bart_base_contrastive_fine-tuning.yaml
-python mian.py --config_file ./configs/main_experiments/bart_base_contrastive_fine-tuning.yaml
+python main.py --config_file ./configs/main_experiments/bart_base_contrastive_fine-tuning.yaml
 # check performance in ./log/date/bart_base_event-centric_pretraining.log
 ```
 
