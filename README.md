@@ -47,7 +47,7 @@ python main.py --config_file ./configs/ablation_experiments/replace_with_a_linea
 
 ### 2.3 checkpoint:
 
-The final checkpoint for ours($Bart_{base}$) on the public dataset, if you need more checkpoint, log, or data please contact me, I'll try to find it out, but I can't promise since I've cleared hard drive space.
+The final checkpoint for ours($Bart_{base}$) on the public dataset, if you need more checkpoint, log, or dataset please contact me, I'll try to find it out, but I can't promise since I've cleared hard drive space.
 
 https://drive.google.com/file/d/1nWnDc-E6mo42G4wycbkk2UpK6JBuEWaX/view?usp=sharing
 
