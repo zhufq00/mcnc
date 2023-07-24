@@ -32,7 +32,7 @@ python main.py --config_file ./configs/main_experiments/bart_base_contrastive_fi
 # check performance in ./log/date/bart_base_event-centric_pretraining.log
 ```
 
-A similar process for repetition $Bart_{large}$and $Bart_{large}+NYT$model.
+A similar process for repetition $Bart_{large}$ and $Bart_{large}+NYT$ model.
 
 ### 2.2 ablation experiments:
 
