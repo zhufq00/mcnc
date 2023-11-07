@@ -15,7 +15,11 @@ mv negg_data_dir/corpus_index_test.txt ./data/negg_data/test
 mv negg_data_dir/corpus_index_train0.txt ./data/negg_data/train
 ```
 We also uploaded this dataset along with the code.
-The original dataset: due to dataset upload size limitations, we will publish this dataset after the paper is published.
+The original dataset: 
+
+Train: https://drive.google.com/file/d/19rIAU_mOOULFzJyyNu6Z-i3c5YvrfNCx/view
+Dev: https://drive.google.com/file/d/1HQE8REOeCyfObtGH_M-usWRKx9CzmuKI/view
+Test: https://drive.google.com/file/d/1IpWvEn-M90Qx6g_MIv5zDw_L8bYWcTFK/view
 
 ## 2.  Experiments
 ### 2.1 main experiments:
