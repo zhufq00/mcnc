@@ -51,5 +51,22 @@ python main.py --config_file ./configs/ablation_experiments/replace_with_a_linea
 # check performance in ./log/date/replace_with_a_linear_classifier.log
 ```
 
+## Reference
+```
+@article{zhu-etal-2023-script,
+    title={A Generative Approach for Script Event Prediction via Contrastive Fine-Tuning},
+    author={Zhu, Fangqi and Gao, Jun and Yu, Changlong and Wang, Wei and Xu, Chen and Mu, Xin and Yang, Min and Xu, Ruifeng},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume={37},
+    number={11},
+    pages={14056-14064},
+    year={2023},
+    month={Jun},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/26645},
+    doi={10.1609/aaai.v37i11.26645}
+}
+
+```
+
 
 
